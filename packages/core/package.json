@@ -1,0 +1,26 @@
+{
+  "name": "@ed-lowcode-cli/core",
+  "version": "0.0.0",
+  "description": "lowcode cli core",
+  "author": "Eddie",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "ed-lowcode-cli": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  }
+}
